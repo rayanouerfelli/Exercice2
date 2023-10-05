@@ -1,0 +1,101 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        /* border: 1px  */
+}
+h1{
+        color:  #B05B22;
+        text-align: center;}
+
+.logo{
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+nav li{
+        text-transform: uppercase;
+        font-size: small;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 0.5%;
+        height: auto;
+        width: auto;
+        background-color: #E2E2E2;
+}
+nav ul{
+        text-align: center;
+        
+}
+main{ 
+        margin: 10%;
+        text-align: center;}
+main p{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: medium;
+        text-align: left;
+
+}
+.vignette{
+        width: 
+        320px;}
+footer{
+        text-align: center;
+        border-top: solid 2px #E2E2E2;}
+footer p{
+        font-size: x-small;
+}
+/* css pour une largeur supérieure ou égale à 768px (tablette)*/
+@media screen and (min-width: 768px) {
+        
+body{
+        background-color: #E2E2E2;
+}
+.monstre{
+        margin: auto;
+        width: 90%;
+        background-color: white;
+}
+h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+  
+  }
+nav li{
+                
+                padding: 10px 70px ;
+                white-space: nowrap;
+                list-style: none;     
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: medium;
+                
+                
+        }
+nav ul{
+                
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+        }
+        nav{
+                padding: auto;
+                border: 
+        }
+.vignette{
+                width: auto;}
+
+
+
+
+
+
+
+
+
+
+}
